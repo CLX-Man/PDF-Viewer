@@ -3,7 +3,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 # 1. PDF laden
-file_name = "ihre_datei.pdf"
+file_name = "Test.pdf"
 doc = fitz.open(file_name)
 page = doc.load_page(0)  # Erste Seite laden
 
